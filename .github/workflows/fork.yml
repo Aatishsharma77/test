@@ -8,6 +8,8 @@ jobs:
   fork:
    runs-on: ubuntu-latest
    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
     - name: fork-run
       run: echo "trigger when a fork is created"
       shell: bash
