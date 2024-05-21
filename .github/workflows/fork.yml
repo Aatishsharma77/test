@@ -1,0 +1,14 @@
+name: trigger fork
+
+on:
+  fork:
+    types: [created]
+
+jobs:
+  fork:
+   runs-on: ubuntu-latest
+   steps:
+    - name: fork-run
+      run: echo "trigger when a fork is created"
+      shell: bash
+    
