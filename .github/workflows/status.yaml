@@ -18,5 +18,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: test
-        run: echo "hello world"
+        run: echo "hello world1"
         shell: bash
