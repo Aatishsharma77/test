@@ -14,3 +14,9 @@ jobs:
           DESCRIPTION: ${{ github.event.description }}
         run: |
           echo The status is error or failed: $DESCRIPTION
+  second_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test
+        run: echo "hello world"
+        shell: bash
