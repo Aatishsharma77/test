@@ -1,0 +1,13 @@
+name: Watch Event Workflow
+
+on:
+  watch:
+    types: [started]
+
+jobs:
+  notify-user:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Watcher's Username
+        run: echo "The repository was watched by ${{ github.actor }}"
