@@ -1,0 +1,15 @@
+name: Status Event Workflow
+
+on:
+  status:
+
+jobs:
+  status-check:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Echo status event message
+      run: echo "A status event has occurred."
