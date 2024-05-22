@@ -8,6 +8,6 @@ permissions: write-all
 
 jobs:
   useCallable:
-    uses: Aatishsharma77/test/.github/workflows/calling_workflow.yaml@main
+    uses: Aatishsharma77/test/.github/workflows/callable_workflow.yaml@main
     with:
       name: 'Jimin'
