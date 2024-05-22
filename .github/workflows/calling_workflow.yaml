@@ -1,12 +1,13 @@
 #workflow call
 
-
 name: Calling Workflow
 
 on: [push]
 
+permissions:
+  contents: read
 jobs:
   useCallable:
-    uses: ./.github/workflows/callable_workflow.yml
+    uses: Aatishsharma77/test/.github/workflows/calling_workflow.yaml@main
     with:
       name: 'Jimin'
