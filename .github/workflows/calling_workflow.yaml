@@ -4,8 +4,8 @@ name: Calling Workflow
 
 on: [push]
 
-permissions:
-  contents: read
+permissions: write-all
+
 jobs:
   useCallable:
     uses: Aatishsharma77/test/.github/workflows/calling_workflow.yaml@main
