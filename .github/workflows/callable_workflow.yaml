@@ -1,6 +1,6 @@
 #workflow_call
 
-name: Callable Workflow
+run-name: Callable Workflow
 
 on: 
   workflow_call:
