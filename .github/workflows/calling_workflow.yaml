@@ -7,6 +7,6 @@ on: [push]
 
 jobs:
   useCallable:
-    uses: ./.github/workflows/callable_workflow.yml
+    uses: Aatishsharma77/test/.github/workflows/callable_workflow.yml@main
     with:
       name: 'Jimin'
