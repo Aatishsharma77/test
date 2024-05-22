@@ -19,6 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - id: greeting
-      run: echo "::set-output name=message::Hello, ${{ inputs.name }}"
+      #run: echo "::set-output name=message::Hello, ${{ inputs.name }}"
+      run: echo "message=hello, ${{ inputs.name }}"  >> "$GITHUB_OUTPUT"
     
       
