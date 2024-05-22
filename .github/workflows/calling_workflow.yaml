@@ -10,4 +10,4 @@ jobs:
   useCallable:
     uses: ./.github/workflows/callable_workflow.yaml
     with:
-      name: 'Jimin'
+      name: "Jimin"
